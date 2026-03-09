@@ -15,7 +15,7 @@ jobs:
 
       - name: Pre-boot Simulator
         run: |
-          xcrun simctl boot "iPhone 12" || true
+          xcrun simctl boot "iPad (10th generation)" || true
 
       - name: List Available Simulators
         run: xcrun simctl list devices
