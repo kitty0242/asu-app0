@@ -26,7 +26,6 @@ jobs:
             -project asu-app.xcodeproj \
             -scheme asu-app \
             -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.6' \
-            -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO
 
